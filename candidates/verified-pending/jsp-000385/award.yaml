@@ -1,0 +1,26 @@
+id: jsp-000385
+batch: null
+problem:
+  source: "Erdos problems list"
+  number: 385
+  title_en: "Can all natural numbers be permuted so that every adjacent pair has prime sum?"
+  posed:
+    year: 1980
+    basis: stated
+    citation: "[ErGr80] Old and new problems and results in combinatorial number theory (book text; no standalone paper identified)"
+  resolved: null
+recipients:
+  - id: shiqiang-chen
+    affiliation: "Independent researcher"
+    contribution_en: "Constructive scoped Lean formalization: the explicit 14-term block [1,2,3,4,7,6,13,10,9,8,11,12,5,14] whose 13 adjacent pairs all sum to a prime, verified by decision procedure (Lean v4.34.0, mathlib v4.34.0)."
+    confirmation: "https://github.com/shunfeng8421"
+verification:
+  peer_review: null
+  formal:
+    record: verification/record.yaml
+    statement: verification/statement.yaml
+  independent_review: null
+conflicts: []
+status: pending-recipient-confirmation
+revocation: null
+decision: null

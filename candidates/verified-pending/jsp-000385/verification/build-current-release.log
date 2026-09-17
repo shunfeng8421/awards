@@ -1,0 +1,6 @@
+JSP-385 build log
+command: lake env lean Jsp385.lean
+status: SUCCESS (exit 0)
+no errors, no warnings
+theorems: Jsp385.all_adjacent_pairs_prime, Jsp385.pair_1_2_prime
+toolchain: Lean 4.34.0, mathlib 5ed2965256430c3649e86755f9576b54eca72435
