@@ -1,0 +1,5 @@
+JSP-301 build log
+command: lake env lean Jsp301.lean
+status: SUCCESS (exit 0)
+theorem: Jsp301.JSP_301 + powerful_12167/12168, not_square_12167/12168
+toolchain: Lean 4.34.0, mathlib 5ed2965256430c3649e86755f9576b54eca72435

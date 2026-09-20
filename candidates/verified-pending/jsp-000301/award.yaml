@@ -1,0 +1,26 @@
+id: jsp-000301
+batch: null
+problem:
+  source: "Erdos problems list"
+  number: 301
+  title_en: "Consecutive powerful numbers need not be squares (formal disproof)"
+  posed:
+    year: 1970
+    basis: stated
+    citation: "catalog JSP-000301 (earliest noted bibliographic evidence: Golomb, Powerful numbers, Amer. Math. Monthly 1970, 848–855)"
+  resolved: null
+recipients:
+  - id: shiqiang-chen
+    affiliation: "Independent researcher"
+    contribution_en: "Lean 4 formal disproof: the consecutive powerful numbers 12167 = 23^3 and 12168 = 2^3·3^2·13^2 show that consecutive powerful numbers need not be squares (theorem Jsp301.JSP_301), verified against Lean v4.34.0 / mathlib v4.34.0."
+    confirmation: "https://github.com/shunfeng8421"
+verification:
+  peer_review: null
+  formal:
+    record: verification/record.yaml
+    statement: verification/statement.yaml
+  independent_review: null
+conflicts: []
+status: pending-recipient-confirmation
+revocation: null
+decision: null
